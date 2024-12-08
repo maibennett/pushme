@@ -8,13 +8,15 @@ format: gfm
 
 # Pushme
 
-Do you ever have to step away from your code and want to know when it's done or throws an error?
+Do you ever have to step away from your code and want to know when it's done or throws an error? 
 
-This is a wrapper for the [`pushoverr`](https://github.com/briandconnelly/pushoverr) R package that will send random messages through the [pushover](https://pushover.net/) app.
+**Wonder no more!**
+
+This is a wrapper for the [`pushoverr`](https://github.com/briandconnelly/pushoverr) R package (developed by Brian Connelly) that will send random messages through the [pushover](https://pushover.net/) app with relevant information -- or just cheerful notes -- on the status of your code.
 
 # Installation
 
-To use `pushme` you will need to get a user and app token for the device you want to send messages to.
+To use `pushme` you will need to get a user key and app token for the device you want to send messages to.
 
 1) Download the `pushover` app from [pushover](https://pushover.net/), either on your phone or desktop.
     - As of Dec. 8th 2024, there is a one-time purchase payment of $4.99 USD for each platform (iPhone/iPad, Android, and Desktop). You also get a free 30 day trial.
@@ -143,3 +145,14 @@ for(i in 1:sim){
 <p align="center">
   <img src="https://github.com/maibennett/pushme/blob/main/images/personal_message.PNG?raw=TRUE" width="40%">
 </p>
+
+# References
+
+- Connelly B (2021). _pushoverr: Send Push Notifications using 'Pushover'_. R package version
+  1.1.0, <https://CRAN.R-project.org/package=pushoverr>.
+  
+- Hvitfeldt E (2024). _emoji: Data and Function to Work with Emojis_. R package version 16.0.0,
+  <https://CRAN.R-project.org/package=emoji>.
+  
+- Wickham H, Bryan J, Barrett M, Teucher A (2024). _usethis: Automate Package and Project
+  Setup_. R package version 3.1.0, <https://CRAN.R-project.org/package=usethis>.

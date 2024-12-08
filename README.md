@@ -10,15 +10,18 @@
 Do you ever have to step away from your code and want to know when it’s
 done or throws an error?
 
+**Wonder no more!**
+
 This is a wrapper for the
 [`pushoverr`](https://github.com/briandconnelly/pushoverr) R package
-that will send random messages through the
-[pushover](https://pushover.net/) app.
+(developed by Brian Connelly) that will send random messages through the
+[pushover](https://pushover.net/) app with relevant information – or
+just cheerful notes – on the status of your code.
 
 # Installation
 
-To use `pushme` you will need to get a user and app token for the device
-you want to send messages to.
+To use `pushme` you will need to get a user key and app token for the
+device you want to send messages to.
 
 1)  Download the `pushover` app from [pushover](https://pushover.net/),
     either on your phone or desktop.
@@ -46,7 +49,7 @@ install.packages("usethis")
 devtools::install_github("maibennett/pushme")
 ```
 
-4a) *If you have installed `usethis`*, you can set your app token and
+4a) *If you have installed* `usethis`, you can set your app token and
 user key in your R environment
 
 ``` r
@@ -58,7 +61,7 @@ and save them as `PUSHOVER_USER` and `PUSHOVER_APP` as following
     PUSHOVER_USER=uQiRzpo4DXghDmr9QzzfQu27cmVRsG
     PUSHOVER_APP=azGDORePK8gMaC0QOYAMyEEuzJnyUi
 
-4b) *If you have not installed `usethis`*, you can set your app token
+4b) *If you have not installed* `usethis`, you can set your app token
 and user key for the specific R session as following:
 
 ``` r
@@ -154,3 +157,16 @@ for(i in 1:sim){
 
 <img src="https://github.com/maibennett/pushme/blob/main/images/personal_message.PNG?raw=TRUE" width="40%">
 </p>
+
+# References
+
+- Connelly B (2021). *pushoverr: Send Push Notifications using
+  ‘Pushover’*. R package version 1.1.0,
+  <https://CRAN.R-project.org/package=pushoverr>.
+
+- Hvitfeldt E (2024). *emoji: Data and Function to Work with Emojis*. R
+  package version 16.0.0, <https://CRAN.R-project.org/package=emoji>.
+
+- Wickham H, Bryan J, Barrett M, Teucher A (2024). *usethis: Automate
+  Package and Project Setup*. R package version 3.1.0,
+  <https://CRAN.R-project.org/package=usethis>.
