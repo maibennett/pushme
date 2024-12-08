@@ -1,0 +1,19 @@
+Package: pushme
+Title: Send Push Messages When Running R Scripts
+Version: 0.0.0.9000
+Authors@R: 
+    person("Magdalena", "Bennett", , "m.bennett@austin.utexas.edu", role = c("aut", "cre"))
+Description: "Wrapper package for `pushoverr` functions to send push notifications with random messages to your phone and/or computer when code is done or there is an error.".
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports:
+  checkmate,
+  pushoverr,
+  emoji
+Suggests:
+  usethis,  
+  knitr,
+  rmarkdown
+VignetteBuilder: knitr
