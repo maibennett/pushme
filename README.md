@@ -61,8 +61,9 @@ and save them as `PUSHOVER_USER` and `PUSHOVER_APP` as following
     PUSHOVER_USER=uQiRzpo4DXghDmr9QzzfQu27cmVRsG
     PUSHOVER_APP=azGDORePK8gMaC0QOYAMyEEuzJnyUi
 
-4b) *If you have not installed* `usethis`, you can set your app token
-and user key for the specific R session as following:
+4b) *If you have not installed* `usethis` or don’t want to save these
+tokens in your environment, you can set your app token and user key for
+the specific R session as following:
 
 ``` r
 set_pushme(user = "uQiRzpo4DXghDmr9QzzfQu27cmVRsG", token = "azGDORePK8gMaC0QOYAMyEEuzJnyUi")
