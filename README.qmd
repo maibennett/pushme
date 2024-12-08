@@ -2,7 +2,7 @@
 format: gfm
 ---
 
-![](images/header.png){fig-align="center"}
+![](https://github.com/maibennett/pushme/blob/main/images/header.PNG?raw=TRUE){fig-align="center"}
 
 # Pushme
 
