@@ -1,6 +1,8 @@
 
 
-<img src="images/header.png" data-fig-align="center" />
+<img
+src="https://github.com/maibennett/pushme/blob/main/images/header.PNG?raw=TRUE"
+data-fig-align="center" />
 
 # Pushme
 
@@ -87,6 +89,10 @@ for(i in 1:sim){
 pushme()
 ```
 
+<img
+src="https://github.com/maibennett/pushme/blob/main/images/code_done.PNG?raw=TRUE"
+data-fig-align="center" data-fig-width="50%" />
+
 … or when there’s an error…
 
 ``` r
@@ -117,6 +123,10 @@ for (i in 1:sim) {
 }
 ```
 
+<a
+href="https://github.com/maibennett/pushme/blob/main/images/error_message.PNG?raw=TRUE"
+data-fig-align="center" data-fig-width="50%"></a>
+
 … or if you want your own message…
 
 ``` r
@@ -140,3 +150,7 @@ for(i in 1:sim){
   }
 }
 ```
+
+<a
+href="https://github.com/maibennett/pushme/blob/main/images/personal_message.PNG?raw=TRUE"
+data-fig-align="center" data-fig-width="50%"></a>
