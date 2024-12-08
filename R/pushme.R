@@ -38,7 +38,17 @@ pushme <- function(message = NULL, error = FALSE, add_message = NULL){
                paste(emoji::emoji("clap"), "Code done! Give yourself a round of applause!", emoji::emoji("clap")),
                paste(emoji::emoji("sun with face"), "The code shines bright like the sun. You're unstoppable!", emoji::emoji("sparkles")),
                paste(emoji::emoji("rainbow"), "Rainbows and butterflies! Your code is complete!", emoji::emoji("butterfly")),
-               paste(emoji::emoji("robot"), "Beep boop! Your code is done. Time to recharge!", emoji::emoji("battery")))
+               paste(emoji::emoji("robot"), "Beep boop! Your code is done. Time to recharge!", emoji::emoji("battery")),
+               paste(emoji::emoji("tada"), "Victory is mine! Victory is mine! Great day in the morning, people, victory is mine!", emoji::emoji("confetti ball")),
+               paste(emoji::emoji("star-struck"), "Code done! You're a star!", emoji::emoji("star-struck")),
+               paste(emoji::emoji("fire"), "Code is on fire! You nailed it!", emoji::emoji("fire")),
+               paste(emoji::emoji("champagne"), "Pop the champagne! Code execution complete!", emoji::emoji("clinking glasses")),
+               paste(emoji::emoji("smiling face with sunglasses"), "Cool as a cucumber! Code finished smoothly.", emoji::emoji("smiling face with sunglasses")),
+               paste(emoji::emoji("muscle"), "Strong work! Your code is complete!", emoji::emoji("trophy")),
+               paste(emoji::emoji("barrel"), "You drink from the keg of glory. I'll bring you the finest muffins and bagels in all the land", emoji::emoji("bagel")),
+               paste(emoji::emoji("balloon"), "Up, up, and away! The code is done!", emoji::emoji("balloon")),
+               paste(emoji::emoji("dizzy"), "That was dizzying! But the code is complete!", emoji::emoji("dizzy")),
+               paste(emoji::emoji("paw prints"), "Pawsome work! Your code is complete!", emoji::emoji("dog")))
 
   if(isTRUE(error)){
     msg_list = c(paste(emoji::emoji("poop"),"Oh no! Something doesn't smell right. Check your code.",emoji::emoji("sad")),
