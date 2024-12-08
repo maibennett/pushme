@@ -1,8 +1,9 @@
 
 
-<img
-src="https://github.com/maibennett/pushme/blob/main/images/header.PNG?raw=TRUE"
-data-fig-align="center" />
+<p align="center">
+
+<img src="https://github.com/maibennett/pushme/blob/main/images/header.PNG?raw=TRUE" width="70%">
+</p>
 
 # Pushme
 
@@ -19,26 +20,22 @@ that will send random messages through the
 To use `pushme` you will need to get a user and app token for the device
 you want to send messages to.
 
-1.  Download the `pushover` app from [pushover](https://pushover.net/),
+1)  Download the `pushover` app from [pushover](https://pushover.net/),
     either on your phone or desktop.
+    - As of Dec. 8th 2024, there is a one-time purchase payment of
+      \$4.99 USD for each platform (iPhone/iPad, Android, and Desktop).
+      You also get a free 30 day trial.
 
-- As of Dec. 8th 2024, there is a one-time purchase payment of \$4.99
-  USD for each platform (iPhone/iPad, Android, and Desktop). You also
-  get a free 30 day trial.
-
-- When you create an account, the platform will provide a **user key**.
-
-2.  Create an application for your messages (e.g. `RCode`). You will
+    - When you create an account, the platform will provide a **user
+      key**.
+2)  Create an application for your messages (e.g. `RCode`). You will
     have access to 10,000 messages/month
-
-- When creating a new application, the platform will provide an **app
-  token**
-
-3.  Install the `pushme` package in R.
-
-- You will need to install `pushoverr` as well as the `emoji` package. I
-  also recommend installing `usethis` to save your app token and user
-  key as R environment variables.
+    - When creating a new application, the platform will provide an
+      **app token**
+3)  Install the `pushme` package in R.
+    - You will need to install `pushoverr` as well as the `emoji`
+      package. I also recommend installing `usethis` to save your app
+      token and user key as R environment variables.
 
 ``` r
 install.packages("pushoverr")
@@ -49,7 +46,7 @@ install.packages("usethis")
 devtools::install_github("maibennett/pushme")
 ```
 
-4a. *If you have installed `usethis`*, you can set your app token and
+4a) *If you have installed `usethis`*, you can set your app token and
 user key in your R environment
 
 ``` r
@@ -61,14 +58,14 @@ and save them as `PUSHOVER_USER` and `PUSHOVER_APP` as following
     PUSHOVER_USER=uQiRzpo4DXghDmr9QzzfQu27cmVRsG
     PUSHOVER_APP=azGDORePK8gMaC0QOYAMyEEuzJnyUi
 
-4b. *If you have not installed `usethis`*, you can set your app token
+4b) *If you have not installed `usethis`*, you can set your app token
 and user key for the specific R session as following:
 
 ``` r
 set_pushme(user = "uQiRzpo4DXghDmr9QzzfQu27cmVRsG", token = "azGDORePK8gMaC0QOYAMyEEuzJnyUi")
 ```
 
-5.  Get ready to use this! If you just want to know when a code ends…
+5)  Get ready to use this! If you just want to know when a code ends…
 
 ``` r
 library(pushme)
@@ -89,9 +86,10 @@ for(i in 1:sim){
 pushme()
 ```
 
-<img
-src="https://github.com/maibennett/pushme/blob/main/images/code_done.PNG?raw=TRUE"
-data-fig-align="center" data-fig-width="50%" />
+<p align="center">
+
+<img src="https://github.com/maibennett/pushme/blob/main/images/code_done.PNG?raw=TRUE" width="40%">
+</p>
 
 … or when there’s an error…
 
@@ -123,9 +121,10 @@ for (i in 1:sim) {
 }
 ```
 
-<a
-href="https://github.com/maibennett/pushme/blob/main/images/error_message.PNG?raw=TRUE"
-data-fig-align="center" data-fig-width="50%"></a>
+<p align="center">
+
+<img src="https://github.com/maibennett/pushme/blob/main/images/error_message.PNG?raw=TRUE" width="40%">
+</p>
 
 … or if you want your own message…
 
@@ -151,6 +150,7 @@ for(i in 1:sim){
 }
 ```
 
-<a
-href="https://github.com/maibennett/pushme/blob/main/images/personal_message.PNG?raw=TRUE"
-data-fig-align="center" data-fig-width="50%"></a>
+<p align="center">
+
+<img src="https://github.com/maibennett/pushme/blob/main/images/personal_message.PNG?raw=TRUE" width="40%">
+</p>
