@@ -77,6 +77,8 @@ for(i in 1:sim){
 pushme()
 ```
 
+![](https://github.com/maibennett/pushme/blob/main/images/code_done.PNG?raw=TRUE){fig-align="center" width="50%"}
+
 ... or when there's an error...
 
 ```{r, eval = FALSE}
@@ -108,6 +110,8 @@ for (i in 1:sim) {
 
 ```
 
+[](https://github.com/maibennett/pushme/blob/main/images/error_message.PNG?raw=TRUE){fig-align="center" width="50%"}
+
 ... or if you want your own message...
 
 ```{r, eval = FALSE}
@@ -131,3 +135,5 @@ for(i in 1:sim){
   }
 }
 ```
+
+[](https://github.com/maibennett/pushme/blob/main/images/personal_message.PNG?raw=TRUE){fig-align="center" width="50%"}
