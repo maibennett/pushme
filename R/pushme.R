@@ -20,6 +20,8 @@
 pushme <- function(message = NULL, error = FALSE, add_message = NULL){
 
   checkmate::assert_flag(error)
+  checkmate::assert_string(message, null.ok = TRUE)
+  checkmate::assert_string(add_message, null.ok = TRUE)
 
   msg_list = c(paste(emoji::emoji("dancer"),"Woohoo! Dreams are not dead! Code is done!",emoji::emoji("celebrate")),
                paste(emoji::emoji("flower"),"You smell like flowers",emoji::emoji("flower"),"Now get to work, because your code is done!",emoji::emoji("sparkles")),
